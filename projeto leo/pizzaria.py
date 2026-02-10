@@ -85,10 +85,11 @@ while True:
         ver_pedidos()
     elif opcao == "5":
         total = calcular_total()
-        print("💰 Total a pagar: R$", total)
+        print("Total a pagar: R$", total)
         break
     elif opcao == "6":
         print("Saindo...")
         break
     else:
+
         print("Opção inválida")

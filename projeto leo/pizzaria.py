@@ -17,7 +17,7 @@ def mostrar_cardapio():
 
 def adicionar_pedido():
     nome_cliente = input("Digite seu nome: ").lower()
-    pizza = input("Nome da pizza  : ").lower()
+    pizza = input("Nome da pizza: ").lower()
 
     if pizza in cardapio:
         quantidade = int(input("Quantidade: "))
